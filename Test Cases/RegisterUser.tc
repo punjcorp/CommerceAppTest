@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This test case is used to create a new user based on provided details</description>
+   <name>RegisterUser</name>
+   <tag>user account register</tag>
+   <comment></comment>
+   <testCaseGuid>b577e32a-40c5-4153-8769-62b7670e8ebd</testCaseGuid>
+</TestCaseEntity>

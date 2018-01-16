@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Signup</name>
+   <tag></tag>
+   <elementGuidId>e5ecbe7f-01d7-477a-8442-602bcdd75fd9</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Signup!</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-6 mx-auto text-center&quot;]/div[@class=&quot;card card-primary&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;card-text&quot;]/form[@class=&quot;form-signin&quot;]/div[@class=&quot;row align-items-center&quot;]/div[@class=&quot;col&quot;]/a[1]/span[2]</value>
+   </webElementProperties>
+</WebElementEntity>

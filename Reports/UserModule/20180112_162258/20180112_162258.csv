@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+UserModule,Firefox 57.0,This test suite contains all the test cases for user module,2018-01-12 16:23:17,2018-01-12 16:25:20,2m - 3.059s,FAILED
+,,,,,,
+Test Cases/Login,Firefox 57.0,This is login page test for CommerceApp,2018-01-12 16:23:19,2018-01-12 16:24:31,1m - 12.081s,PASSED
+openBrowser,Firefox 57.0,,2018-01-12 16:23:22,2018-01-12 16:24:08,45.943s,PASSED
+navigateToUrl,Firefox 57.0,,2018-01-12 16:24:08,2018-01-12 16:24:13,4.440s,PASSED
+setText,Firefox 57.0,,2018-01-12 16:24:13,2018-01-12 16:24:14,1.657s,PASSED
+setText,Firefox 57.0,,2018-01-12 16:24:14,2018-01-12 16:24:15,0.536s,PASSED
+click,Firefox 57.0,,2018-01-12 16:24:15,2018-01-12 16:24:25,9.861s,PASSED
+click,Firefox 57.0,,2018-01-12 16:24:25,2018-01-12 16:24:27,2.548s,PASSED
+closeBrowser,Firefox 57.0,,2018-01-12 16:24:27,2018-01-12 16:24:31,3.588s,PASSED
+,,,,,,
+Test Cases/User/ManageUser,Firefox 57.0,This test case is to update the user details after the login,2018-01-12 16:24:31,2018-01-12 16:25:17,46.287s,FAILED
+openBrowser,Firefox 57.0,,2018-01-12 16:24:32,2018-01-12 16:25:00,27.777s,PASSED
+navigateToUrl,Firefox 57.0,,2018-01-12 16:25:00,2018-01-12 16:25:05,5.349s,PASSED
+setText,Firefox 57.0,,2018-01-12 16:25:05,2018-01-12 16:25:06,0.599s,PASSED
+setText,Firefox 57.0,,2018-01-12 16:25:06,2018-01-12 16:25:07,1.056s,PASSED
+click,Firefox 57.0,,2018-01-12 16:25:07,2018-01-12 16:25:14,6.466s,PASSED
+click,Firefox 57.0,,2018-01-12 16:25:14,2018-01-12 16:25:14,0.813s,PASSED
+click,Firefox 57.0,,2018-01-12 16:25:14,2018-01-12 16:25:17,2.749s,FAILED
