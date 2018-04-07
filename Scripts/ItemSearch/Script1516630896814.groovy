@@ -22,13 +22,29 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://localhost:8080/login')
+WebUI.navigateToUrl(findTestData('User Test Data').getValue(1, 3))
 
-WebUI.setText(findTestObject('Page_User Login/input_username'), findTestData('User Test Data').getValue(3, 2))
+WebUI.setText(findTestObject('Page_User Login/input_username'), findTestData('User Test Data').getValue(2, 3))
 
-WebUI.setText(findTestObject('Page_User Login/input_password'), findTestData('User Test Data').getValue(4, 2))
+WebUI.setText(findTestObject('Page_User Login/input_password'), findTestData('User Test Data').getValue(3, 3))
 
-WebUI.openBrowser('')
+WebUI.click(findTestObject('Page_User Login/button_Login'))
+
+WebUI.click(findTestObject('a_stylemenu'))
+
+WebUI.click(findTestObject('span_Search Items (1)'))
+
+WebUI.setText(findTestObject('input_searchText'), findTestData('User Test Data').getValue(4, 3))
+
+WebUI.click(findTestObject('input_form-control btn btn-inf'))
+
+WebUI.click(findTestObject('span_2'))
+
+WebUI.click(findTestObject('a_First'))
+
+WebUI.click(findTestObject('span_1'))
+
+WebUI.click(findTestObject('a_Last'))
 
 WebUI.click(findTestObject('Page_Home/i_exit_to_app'))
 

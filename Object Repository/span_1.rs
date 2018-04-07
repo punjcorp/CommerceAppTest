@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_1</name>
+   <tag></tag>
+   <elementGuidId>89578d7d-af72-4ed1-8a10-046d7840dd20</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>1</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;bulkForm&quot;)/table[@class=&quot;table table-striped table-hover table-bordered&quot;]/tbody[1]/tr[6]/td[3]/nav[1]/ul[@class=&quot;pagination pagination-sm justify-content-end&quot;]/li[@class=&quot;page-item&quot;]/a[@class=&quot;page-link&quot;]/span[1]</value>
+   </webElementProperties>
+</WebElementEntity>
